@@ -11,7 +11,7 @@
   <option name="NAMES_COUNT_TO_USE_IMPORT_ON_DEMAND" value="99" />
   <option name="IMPORT_LAYOUT_TABLE">
     <value>
-      <package name="com.google" withSubpackages="true" static="false" />
+      <package name="com.duitang" withSubpackages="true" static="false" />
       <emptyLine />
       <package name="android" withSubpackages="true" static="false" />
       <emptyLine />
@@ -192,6 +192,8 @@
       <package name="proguard" withSubpackages="true" static="false" />
       <emptyLine />
       <package name="repackage" withSubpackages="true" static="false" />
+      <emptyLine />
+      <package name="redis" withSubpackages="true" static="false" />
       <emptyLine />
       <package name="scm" withSubpackages="true" static="false" />
       <emptyLine />
