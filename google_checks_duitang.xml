@@ -22,10 +22,12 @@
  -->
 
 <module name="Checker">
+    
+    <module name="SuppressionCommentFilter"/>
+
     <property name="charset" value="UTF-8"/>
 
     <property name="severity" value="error"/>
-
 
     <!-- Checks for whitespace                               -->
     <!-- See http://checkstyle.sf.net/config_whitespace.html -->
@@ -35,6 +37,7 @@
 
     <module name="TreeWalker">
         <module name="OuterTypeFilename"/>
+        <module name="FileContentsHolder"/>
         <module name="IllegalTokenText">
             <property name="tokens" value="STRING_LITERAL, CHAR_LITERAL"/>
             <property name="format"
@@ -212,7 +215,8 @@
             <property name="checkFirstSentence" value="false"/>
             <property name="endOfSentenceFormat" value="(.[ \t\n\r\f&lt;])|(.$)"/>
         </module>
-        
+
     </module>
+    
 </module>
 
