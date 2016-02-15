@@ -163,6 +163,7 @@
         <module name="VariableDeclarationUsageDistance"/>
         <module name="CustomImportOrder">
             <property name="thirdPartyPackageRegExp" value=".*"/>
+            <property name="standardPackageRegExp" value="^(java|javax)\."/>
             <property name="specialImportsRegExp" value="com.duitang"/>
             <property name="sortImportsInGroupAlphabetically" value="true"/>
             <property name="customImportOrderRules"
