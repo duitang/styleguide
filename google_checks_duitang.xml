@@ -216,8 +216,12 @@
             <property name="checkFirstSentence" value="false"/>
             <property name="endOfSentenceFormat" value="(.[ \t\n\r\f&lt;])|(.$)"/>
         </module>
+        <module name="EmptyCatchBlock">
+            <property name="exceptionVariableName" value="expected"/>
+        </module>
 
     </module>
+
     
 </module>
 
